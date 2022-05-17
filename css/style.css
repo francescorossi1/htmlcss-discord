@@ -52,6 +52,10 @@ a{
     color: #fff;
 }
 
+.colored-text{
+    color: #5865F2;
+}
+
 .white-background{
     background-color: #fff;
 }
@@ -91,6 +95,15 @@ a{
 .full-column{
     flex-basis: 100%;
     flex-grow: 0;
+}
+
+ul{
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+ul li{
+    padding: 10px 0;
 }
 
 /* Header */
@@ -140,3 +153,38 @@ a{
     text-align: center;
 }
 
+/* footer */
+
+footer{
+    background-color: #23272A;
+}
+
+.footer-links{
+    padding-bottom: 30px;
+    border-bottom: 1px solid #808080;
+}
+
+.socials{
+    flex-basis: 30%;
+    padding: 10px;
+}
+
+.contacts{
+    padding: 10px 0;
+    flex-basis: 70%;
+    justify-content: space-evenly;
+}
+
+#italian-flag{
+    width: 10%;
+}
+
+.fa-brands{
+    font-size: 20px;
+    padding: 20px 10px;
+}
+
+.footer-end{
+    justify-content: space-between;
+    padding-top: 30px;
+}
