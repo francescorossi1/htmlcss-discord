@@ -1,0 +1,112 @@
+/* generics */
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;;
+}
+
+nav{
+    height: 80px;
+    background-color: #255EE9;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    margin-top: 0;
+}
+
+
+.links > a{
+    color: #fff;
+}
+
+a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #000;
+}
+
+.links{
+    font-size: 12px;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+/* utils */
+
+.container{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.white-text{
+    color: #fff;
+}
+
+.white-background{
+    background-color: #fff;
+}
+
+.button{
+    padding: 10px 5px;
+    border-radius: 15px;
+}
+
+.section-title{
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.section-paragraph{
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+/* Header */
+.navbar{
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+.logo, .sign-in{
+    padding: 10px;
+    flex-basis: 25%;
+}
+
+.sign-in{
+    text-align: right;
+}
+
+
+.jumbotron{
+    background-image: url(../img/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    padding: 50px 0;
+}
+
+.jumbotron > section{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.fa-solid{
+    padding: 0 5px;
+}
+
+.jumbotron a:last-child{
+    margin-left: 20px;
+    background-color: #000;
+}
