@@ -153,6 +153,14 @@ ul li{
     text-align: center;
 }
 
+.starred-paragraph{
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-position-x: center;
+    padding: 20px;
+}
+
 /* footer */
 
 footer{
